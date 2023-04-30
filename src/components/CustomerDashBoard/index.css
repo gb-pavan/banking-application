@@ -1,0 +1,57 @@
+.banker {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 80vh;
+    width: 80vw;
+    background-color: rgba(19, 17, 30, 0.5) ;/*light blue with 50% opacity */
+    
+    padding-top: 60px;
+}
+
+
+.buttons-display{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.button-transactions{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.active {
+    background-color: red;
+    color: #fff;
+  }
+
+.common-feature {
+    border: none;
+    padding: 20px;
+}
+
+.common-feature:hover {
+    background-color: #ed2a2a;
+    color: #fff;
+    cursor: pointer;
+  }
+
+.button-basic{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.button-withdraw{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+.customer-details{
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+}

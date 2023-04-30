@@ -1,0 +1,10 @@
+.basic-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: darkred;
+    padding: 40px;
+    border-radius: 20px;
+}

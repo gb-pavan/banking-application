@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+import LoginForm from './components/LoginForm';
 import './App.css';
+import { useState } from 'react';
+import BankerDashBoard from './components/BankerDashBoard';
+import CustomerDashBoard from './components/CustomerDashBoard';
 
 function App() {
+  const [showBanker,setShowBanker] = useState(false)
+  const [showLogin,setShowLogin] = useState(true)
+  const [bankerData,setBankerData] = useState([])
+  const [selectedCustomer,setSelectedCustomer] = useState([])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App">      
+      {showLogin ? <LoginForm setShowBanker={setShowBanker} setShowLogin={setShowLogin} setBankerData={setBankerData} setSelectedCustomer={setSelectedCustomer} /> : (showBanker ? <CustomerDashBoard selectedCustomer={selectedCustomer} showLogin={showLogin} /> : <BankerDashBoard bankerData={bankerData} showLogin={showLogin} />)}
     </div>
   );
 }

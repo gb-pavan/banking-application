@@ -1,0 +1,44 @@
+.customers-list{
+    height: 60vh;
+    width: 80vw;
+    background-color: aqua;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-customers-container{
+    width: 80vw;
+    overflow: scroll;
+}
+
+.all-customers-container {
+    border-collapse: collapse;
+  }
+  
+  .all-customers-container td,
+  .all-customers-container th {
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  .user-row:hover {
+    background-color: #eee;
+    cursor: pointer;
+  }
+  
+  .user-details {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid black;
+  }
+
+  .customer-transaction-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  

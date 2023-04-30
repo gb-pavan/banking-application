@@ -1,0 +1,25 @@
+.deposit-container {
+    
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+    background-color: transparent;
+    margin-left: -140px;
+  }
+
+  .button-spacing{
+    margin-top: 65px;
+    margin-left: 20px;
+  }
+
+  .column-spacing {
+    padding: 20px;
+  }
+
+  .set-coloring{
+    color: lightgreen;
+    text-align: center;
+  }

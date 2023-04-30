@@ -1,0 +1,28 @@
+.transaction-details{
+    color: white;
+}
+
+.column-names{
+    font-size: 20px;
+}
+
+.spacing{
+    padding-right: 30px;
+}
+/*
+.transaction-details {
+    overflow-y: auto;
+  }
+  
+  .transaction-details thead {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #f7f7f7;
+  }
+  
+  .transaction-details tbody {
+    height: 300px;
+    overflow-y: auto;
+  }*/
+  

@@ -1,0 +1,37 @@
+.withdraw-container{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+.input-right-spacing{
+    margin-right: 40px;
+}
+
+.background-style{
+    background-color: transparent;
+    height: 20vh;
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.success-message{
+    color: greenyellow;
+}
+
+.error-message{
+    color: lightcoral;
+}
+
+.withdraw-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}

@@ -1,5 +1,11 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://res.cloudinary.com/db9tsiti3/image/upload/v1682780135/2725714_mdgb0z.png');
+  height: 100vh;
+  width: 100vw;
 }
 
 .App-logo {
