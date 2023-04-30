@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/%20banking-application/static/css/main.0b71d15d.css",
+    "main.js": "/%20banking-application/static/js/main.aa233ba7.js",
+    "static/js/787.e7b59482.chunk.js": "/%20banking-application/static/js/787.e7b59482.chunk.js",
+    "index.html": "/%20banking-application/index.html",
+    "main.0b71d15d.css.map": "/%20banking-application/static/css/main.0b71d15d.css.map",
+    "main.aa233ba7.js.map": "/%20banking-application/static/js/main.aa233ba7.js.map",
+    "787.e7b59482.chunk.js.map": "/%20banking-application/static/js/787.e7b59482.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b71d15d.css",
+    "static/js/main.aa233ba7.js"
+  ]
+}
